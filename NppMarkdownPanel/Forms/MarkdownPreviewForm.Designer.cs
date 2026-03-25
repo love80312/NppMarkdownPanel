@@ -120,7 +120,7 @@
             this.btnSaveHtml.ImageTransparentColor = System.Drawing.Color.Black;
             this.btnSaveHtml.Name = "btnSaveHtml";
             this.btnSaveHtml.Size = new System.Drawing.Size(108, 24);
-            this.btnSaveHtml.Text = "Save As...";
+            this.btnSaveHtml.Text = "另存為...";
             this.btnSaveHtml.ButtonClick += new System.EventHandler(this.btnSaveHtml_Click);
             // 
             // btnSaveWithLightTheme
@@ -129,7 +129,7 @@
             this.btnSaveWithLightTheme.ImageTransparentColor = System.Drawing.Color.Black;
             this.btnSaveWithLightTheme.Name = "btnSaveWithLightTheme";
             this.btnSaveWithLightTheme.Size = new System.Drawing.Size(271, 26);
-            this.btnSaveWithLightTheme.Text = "Save As (with Light Theme)";
+            this.btnSaveWithLightTheme.Text = "另存為（淺色主題）";
             this.btnSaveWithLightTheme.Click += new System.EventHandler(this.btnSaveLightTheme_Click);
             // 
             // btnCopyToClipboard
@@ -138,7 +138,7 @@
             this.btnCopyToClipboard.ImageTransparentColor = System.Drawing.Color.Black;
             this.btnCopyToClipboard.Name = "btnCopyToClipboard";
             this.btnCopyToClipboard.Size = new System.Drawing.Size(157, 24);
-            this.btnCopyToClipboard.Text = "Copy To Clipboard";
+            this.btnCopyToClipboard.Text = "複製到剪貼簿";
             this.btnCopyToClipboard.Click += new System.EventHandler(this.btnCopyToClipboard_Click);
             // 
             // statusStrip2
