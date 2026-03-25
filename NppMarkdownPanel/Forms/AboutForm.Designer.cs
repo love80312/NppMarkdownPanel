@@ -59,7 +59,7 @@ namespace NppMarkdownPanel.Forms
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Markdown Panel - About";
+            this.label1.Text = "Md預覽視窗 - 相關";
             // 
             // pictureBox1
             // 
@@ -109,7 +109,7 @@ namespace NppMarkdownPanel.Forms
             this.MaximizeBox = false;
             this.Name = "AboutForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "About";
+            this.Text = "相關";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
