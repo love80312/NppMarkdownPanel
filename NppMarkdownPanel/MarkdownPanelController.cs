@@ -250,14 +250,14 @@ namespace NppMarkdownPanel
         {
             syncViewWithCaretPosition = (Win32.GetPrivateProfileInt("Options", "SyncViewWithCaretPosition", 0, iniFilePath) != 0);
             syncViewWithFirstVisibleLine = (Win32.GetPrivateProfileInt("Options", "SyncWithFirstVisibleLine", 0, iniFilePath) != 0);
-            PluginBase.SetCommand(0, "Toggle &Markdown Panel", TogglePanelVisible);
+            PluginBase.SetCommand(0, "切換至 Md瀏覽視窗(&M)", TogglePanelVisible);
             PluginBase.SetCommand(1, "---", null);
-            PluginBase.SetCommand(2, "Synchronize with &caret position", SyncViewWithCaret, syncViewWithCaretPosition);
-            PluginBase.SetCommand(3, "Synchronize with &first visible line in editor", SyncViewWithFirstVisibleLine, syncViewWithFirstVisibleLine);
+            PluginBase.SetCommand(2, "與遊標位置同步(&C)", SyncViewWithCaret, syncViewWithCaretPosition);
+            PluginBase.SetCommand(3, "與編輯器中第一行可見的內容同步(&F)", SyncViewWithFirstVisibleLine, syncViewWithFirstVisibleLine);
             PluginBase.SetCommand(4, "---", null);
-            PluginBase.SetCommand(5, "&Settings", EditSettings);
-            PluginBase.SetCommand(6, "&Help", ShowHelp);
-            PluginBase.SetCommand(7, "&About", ShowAboutDialog);
+            PluginBase.SetCommand(5, "設置(&S)", EditSettings);
+            PluginBase.SetCommand(6, "幫助(&H)", ShowHelp);
+            PluginBase.SetCommand(7, "相關(&A)", ShowAboutDialog);
             idMyDlg = 0;
         }
 
