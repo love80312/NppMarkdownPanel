@@ -304,7 +304,7 @@
             // 
             this.label5.Location = new System.Drawing.Point(12, 397);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(127, 39);
+            this.label5.Size = new System.Drawing.Size(130, 39);
             this.label5.TabIndex = 21;
             this.label5.Text = "支援的檔案副檔名：";
             // 
