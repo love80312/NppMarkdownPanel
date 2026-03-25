@@ -87,7 +87,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(187, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Markdown Panel Settings";
+            this.label1.Text = "Md瀏覽視窗設置";
             // 
             // pictureBox1
             // 
@@ -105,7 +105,7 @@
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(105, 36);
             this.btnSave.TabIndex = 20;
-            this.btnSave.Text = "Save";
+            this.btnSave.Text = "儲存";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
@@ -117,7 +117,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(105, 36);
             this.btnCancel.TabIndex = 21;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -128,7 +128,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 17);
             this.label2.TabIndex = 3;
-            this.label2.Text = "CSS File:";
+            this.label2.Text = "CSS 檔：";
             // 
             // tbCssFile
             // 
@@ -147,7 +147,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 17);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Zoom Level:";
+            this.label3.Text = "縮放等級：";
             // 
             // trackBar1
             // 
@@ -193,7 +193,7 @@
             this.btnDefaultCss.Name = "btnDefaultCss";
             this.btnDefaultCss.Size = new System.Drawing.Size(73, 26);
             this.btnDefaultCss.TabIndex = 4;
-            this.btnDefaultCss.Text = "Default";
+            this.btnDefaultCss.Text = "預設";
             this.btnDefaultCss.UseVisualStyleBackColor = true;
             this.btnDefaultCss.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -204,7 +204,7 @@
             this.btnResetHtml.Name = "btnResetHtml";
             this.btnResetHtml.Size = new System.Drawing.Size(73, 28);
             this.btnResetHtml.TabIndex = 11;
-            this.btnResetHtml.Text = "Default";
+            this.btnResetHtml.Text = "預設";
             this.btnResetHtml.UseVisualStyleBackColor = true;
             this.btnResetHtml.Click += new System.EventHandler(this.btnResetHtml_Click);
             // 
@@ -237,7 +237,7 @@
             this.lblHtmlFile.Name = "lblHtmlFile";
             this.lblHtmlFile.Size = new System.Drawing.Size(125, 51);
             this.lblHtmlFile.TabIndex = 10;
-            this.lblHtmlFile.Text = "Automatically Save \r\nHTML from Current \r\nPreview to this File:";
+            this.lblHtmlFile.Text = "自動將目前預覽中的 HTML 程式碼\r\n儲存到此文件中：";
             // 
             // statusStrip1
             // 
@@ -266,7 +266,7 @@
             this.btnDefaultDarkmodeCss.Name = "btnDefaultDarkmodeCss";
             this.btnDefaultDarkmodeCss.Size = new System.Drawing.Size(73, 26);
             this.btnDefaultDarkmodeCss.TabIndex = 7;
-            this.btnDefaultDarkmodeCss.Text = "Default";
+            this.btnDefaultDarkmodeCss.Text = "預設";
             this.btnDefaultDarkmodeCss.UseVisualStyleBackColor = true;
             this.btnDefaultDarkmodeCss.Click += new System.EventHandler(this.btnDefaultDarkmodeCss_Click);
             // 
@@ -298,7 +298,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 17);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Darkmode CSS File:";
+            this.label4.Text = "深色模式 CSS 檔：";
             // 
             // label5
             // 
@@ -306,7 +306,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(127, 39);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Supported File Extensions:";
+            this.label5.Text = "支援的檔案副檔名：";
             // 
             // tbFileExt
             // 
@@ -325,7 +325,7 @@
             this.btnDefaultFileExt.Name = "btnDefaultFileExt";
             this.btnDefaultFileExt.Size = new System.Drawing.Size(73, 28);
             this.btnDefaultFileExt.TabIndex = 16;
-            this.btnDefaultFileExt.Text = "Default";
+            this.btnDefaultFileExt.Text = "預設";
             this.btnDefaultFileExt.UseVisualStyleBackColor = true;
             this.btnDefaultFileExt.Click += new System.EventHandler(this.btnDefaultFileExt_Click);
             // 
@@ -336,7 +336,7 @@
             this.cbAutoShowPanel.Name = "cbAutoShowPanel";
             this.cbAutoShowPanel.Size = new System.Drawing.Size(290, 21);
             this.cbAutoShowPanel.TabIndex = 17;
-            this.cbAutoShowPanel.Text = "Automatically show panel for supported files";
+            this.cbAutoShowPanel.Text = "針對支援的檔案自動顯示面板";
             this.cbAutoShowPanel.UseVisualStyleBackColor = true;
             this.cbAutoShowPanel.CheckedChanged += new System.EventHandler(this.cbAutoShowPanel_CheckedChanged);
             // 
@@ -347,7 +347,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(152, 17);
             this.label6.TabIndex = 26;
-            this.label6.Text = "HTML Rendering Engine:";
+            this.label6.Text = "HTML渲染引擎：";
             // 
             // comboRenderingEngine
             // 
@@ -371,7 +371,7 @@
             this.cbShowToolbar.Name = "cbShowToolbar";
             this.cbShowToolbar.Size = new System.Drawing.Size(223, 21);
             this.cbShowToolbar.TabIndex = 18;
-            this.cbShowToolbar.Text = "Show Toolbar in Preview Window";
+            this.cbShowToolbar.Text = "在預覽視窗中顯示工具列";
             this.cbShowToolbar.UseVisualStyleBackColor = true;
             this.cbShowToolbar.CheckedChanged += new System.EventHandler(this.cbShowToolbar_Changed);
             // 
@@ -382,7 +382,7 @@
             this.cbShowStatusbar.Name = "cbShowStatusbar";
             this.cbShowStatusbar.Size = new System.Drawing.Size(321, 21);
             this.cbShowStatusbar.TabIndex = 19;
-            this.cbShowStatusbar.Text = "Show Statusbar in Preview Window (Preview Links)";
+            this.cbShowStatusbar.Text = "在預覽視窗中顯示狀態列（預覽連結）";
             this.cbShowStatusbar.UseVisualStyleBackColor = true;
             this.cbShowStatusbar.CheckedChanged += new System.EventHandler(this.cbShowStatusbar_CheckedChanged);
             // 
@@ -393,7 +393,7 @@
             this.cbAllowAllExtensions.Name = "cbAllowAllExtensions";
             this.cbAllowAllExtensions.Size = new System.Drawing.Size(164, 21);
             this.cbAllowAllExtensions.TabIndex = 14;
-            this.cbAllowAllExtensions.Text = "Allow all file extensions";
+            this.cbAllowAllExtensions.Text = "允許所有檔案副檔名";
             this.cbAllowAllExtensions.UseVisualStyleBackColor = true;
             this.cbAllowAllExtensions.CheckedChanged += new System.EventHandler(this.cbAllowAllExtensions_CheckedChanged);
             // 
@@ -404,7 +404,7 @@
             this.cbFilesWithNoExt.Name = "cbFilesWithNoExt";
             this.cbFilesWithNoExt.Size = new System.Drawing.Size(271, 21);
             this.cbFilesWithNoExt.TabIndex = 27;
-            this.cbFilesWithNoExt.Text = "Enable preview for files without extension";
+            this.cbFilesWithNoExt.Text = "啟用無副檔名的預覽";
             this.cbFilesWithNoExt.UseVisualStyleBackColor = true;
             this.cbFilesWithNoExt.CheckedChanged += new System.EventHandler(this.cbFilesWithNoExt_CheckedChanged);
             // 
@@ -448,7 +448,7 @@
             this.MaximizeBox = false;
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Settings";
+            this.Text = "設置";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
