@@ -237,7 +237,7 @@
             this.lblHtmlFile.Name = "lblHtmlFile";
             this.lblHtmlFile.Size = new System.Drawing.Size(125, 51);
             this.lblHtmlFile.TabIndex = 10;
-            this.lblHtmlFile.Text = "自動將目前預覽中的 HTML 程式碼\r\n儲存到此文件中：";
+            this.lblHtmlFile.Text = "自動將目前預覽中的\r\n HTML 程式碼\r\n儲存到此文件中：";
             // 
             // statusStrip1
             // 
@@ -304,7 +304,7 @@
             // 
             this.label5.Location = new System.Drawing.Point(12, 397);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 39);
+            this.label5.Size = new System.Drawing.Size(140, 39);
             this.label5.TabIndex = 21;
             this.label5.Text = "支援的檔案副檔名：";
             // 
@@ -371,7 +371,7 @@
             this.cbShowToolbar.Name = "cbShowToolbar";
             this.cbShowToolbar.Size = new System.Drawing.Size(223, 21);
             this.cbShowToolbar.TabIndex = 18;
-            this.cbShowToolbar.Text = "在預覽視窗中顯示工具列";
+            this.cbShowToolbar.Text = "在瀏覽視窗中顯示工具列";
             this.cbShowToolbar.UseVisualStyleBackColor = true;
             this.cbShowToolbar.CheckedChanged += new System.EventHandler(this.cbShowToolbar_Changed);
             // 
@@ -382,7 +382,7 @@
             this.cbShowStatusbar.Name = "cbShowStatusbar";
             this.cbShowStatusbar.Size = new System.Drawing.Size(321, 21);
             this.cbShowStatusbar.TabIndex = 19;
-            this.cbShowStatusbar.Text = "在預覽視窗中顯示狀態列（預覽連結）";
+            this.cbShowStatusbar.Text = "在瀏覽視窗中顯示狀態列（預覽連結）";
             this.cbShowStatusbar.UseVisualStyleBackColor = true;
             this.cbShowStatusbar.CheckedChanged += new System.EventHandler(this.cbShowStatusbar_CheckedChanged);
             // 
