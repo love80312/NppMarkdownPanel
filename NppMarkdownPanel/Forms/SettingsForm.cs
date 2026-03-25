@@ -98,7 +98,7 @@ namespace NppMarkdownPanel.Forms
         {
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.Filter = "css files (*.css)|*.css|All files (*.*)|*.*";
+                openFileDialog.Filter = "css 檔 (*.css)|*.css|所有文件 (*.*)|*.*";
                 openFileDialog.RestoreDirectory = true;
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -160,7 +160,7 @@ namespace NppMarkdownPanel.Forms
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
-                saveFileDialog.Filter = "html files (*.html, *.htm)|*.html;*.htm|All files (*.*)|*.*";
+                saveFileDialog.Filter = "html 檔 (*.html, *.htm)|*.html;*.htm|所有文件 (*.*)|*.*";
                 saveFileDialog.RestoreDirectory = true;
                 if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
@@ -216,7 +216,7 @@ namespace NppMarkdownPanel.Forms
             }
             else
             {
-                throw new NotSupportedException("Rendering Engine with id " + comboRenderingEngine.SelectedIndex + " not supported!");
+                throw new NotSupportedException("不支援識別碼為 " + comboRenderingEngine.SelectedIndex + " 的渲染引擎！");
             }
         }
 
