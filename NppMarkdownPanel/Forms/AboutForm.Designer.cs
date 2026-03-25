@@ -59,7 +59,7 @@ namespace NppMarkdownPanel.Forms
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 20);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Md預覽視窗 - 相關";
+            this.label1.Text = "Md瀏覽視窗 - 相關";
             // 
             // pictureBox1
             // 
